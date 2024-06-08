@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <title>Secret_message</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col s8 offset-s2">
+        <div id="message-form" class="card-panel">
+          <form>
+            <label>Enter a Secret Message</label>
+            <input type="text" id="message-input" />
+            <button class="btn">CREATE</button>
+          </form>
+        </div>
+        <div id="link-form" class="card-panel hide">
+          <div>
+            Share this link with a friend
+            <input type="text" id="link-input" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="MessageMaker.js"></script>
+  </body>
+</html>
